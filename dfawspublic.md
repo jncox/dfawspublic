@@ -11,7 +11,7 @@ Quick attack to get account in critical quadrant (~20 minutes).
 
 ### Guide Notes
 - There are other ways to install the tools and will depend on distro.
-- Setting up the AWS profile may very based on an organizations requirements for instance SSO.
+- Setting up the AWS profile may very based on an organizations requirements. For instance SSO would vary between org.
 
 ### Requirments
 - Linux or MacOS. Windows is not officially supported.
