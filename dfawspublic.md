@@ -16,12 +16,12 @@ Quick attack to get account in critical quadrant (~20 minutes).
 
 ### Requirments
 - Linux or MacOS. Windows is not officially supported.
-- If you are using Windows we recommand install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
-- If you are using a Linux virtual machine AWS EC2 is not supported
+  - If you are using Windows we recommand install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
+  - If you are using a Linux virtual machine AWS EC2 is not supported
 - Python3.6+ is required.
 - Terraform >= 0.14 installed and in your $PATH.
 - The AWS CLI installed and in your $PATH, and an AWS account with sufficient privileges to create and destroy resources.
-- AWS [Named profile configured](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
+  - AWS [Named profile configured](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
 
 ### Install system prerequisites (may already be installed) 
 
