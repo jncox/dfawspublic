@@ -9,13 +9,19 @@ Quick attack to get account in critical quadrant (~20 minutes).
 
 ![critical](./images/critical.png)
 
-### Notes
+### Guide Notes
 - There are other ways to install the tools and will depend on distro.
 - Setting up the AWS profile may very based on an organizations requirements for instance SSO. 
+- Linux VM.  In this example a new Ubuntu VM was created in VM Fusion.  The VM is used as the attacker VM.  This guide goes through seeting up the Ubuntu VM.
 
-## Prerequisites
-- Linux VM.  In this example a new Ubuntu VM was created in VM Fusion.  The VM is used as the attacker VM. 
-- AWS Account with admin rights.  This will be used by Cloudgoat to setup a vulnerable intance.
+### Requirments
+- Linux or MacOS. Windows is not officially supported.
+- If you are using Windows we recommand install [WSL2](https://docs.microsoft.com/en-us/windows/wsl/install)
+- If you are using a Linux virtual machine AWS EC2 is not supported
+- Python3.6+ is required.
+- Terraform >= 0.14 installed and in your $PATH.
+- The AWS CLI installed and in your $PATH, and an AWS account with sufficient privileges to create and destroy resources.
+- AWS [Named profile configured](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
 
 ### Install system prerequisites (may already be installed) 
 
