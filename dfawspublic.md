@@ -10,10 +10,12 @@ Quick attack to get account in critical quadrant (~20 minutes).
 ![critical](./images/critical.png)
 
 ### Notes
-- Fresh Ubuntu install will be attacker machine
-- There are other ways to install the tools
-- Will need AWS account with admin rights
-- Setting up the AWS profile may very
+- There are other ways to install the tools and will depend on distro.
+- Setting up the AWS profile may very based on an organizations requirements for instance SSO. 
+
+## Prerequisites
+- Linux VM.  In this example a new Ubuntu VM was created in VM Fusion.  The VM is used as the attacker VM. 
+- AWS Account with admin rights.  This will be used by Cloudgoat to setup a vulnerable intance.
 
 ### Install system prerequisites (may already be installed) 
 
