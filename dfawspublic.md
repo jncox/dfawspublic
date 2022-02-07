@@ -179,7 +179,7 @@ At this point we have created vulnerable infrastucute in AWS using Cloudgoat.  S
    cd && ls
    ```
 ![download](./images/download.png)
-- Remove vulnerable infrasturecure
+- Remove vulnerable infrastructure
    ```bash
    ~/cloudgoat/cloudgoat.py destroy cloud_breach_s3
    ```
