@@ -1,3 +1,5 @@
+### jnc
+
 ### Objective 
 Quick attack to get account in critical quadrant (~20 minutes).
 - Detections include
